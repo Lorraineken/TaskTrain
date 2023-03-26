@@ -134,3 +134,182 @@ Processing by UsersController#register as */*
 Completed 200 OK in 601ms (Views: 1.3ms | ActiveRecord: 306.4ms | Allocations: 4723)
 
 
+Started GET "/sessions" for ::1 at 2023-03-22 12:26:07 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/sessions"):
+  
+Started GET "/users/login/check" for 127.0.0.1 at 2023-03-23 10:46:01 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:24: syntax error, unexpected '}', expecting =>
+...= {session[:expiry] - Time.now}.to_i
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:27: syntax error, unexpected ':', expecting =>
+...ed', status: 401, data: {info : 'Your session has expired. P...
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:27: syntax error, unexpected '}', expecting `end'
+...lease login again to continue'} )
+...                              ^
+):
+  
+app/controllers/application_controller.rb:24: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:27: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:27: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:24: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:27: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:27: syntax error, unexpected '}', expecting `end'
+app/controllers/users_controller.rb:1:in `<main>'
+Started GET "/users/login/check" for 127.0.0.1 at 2023-03-23 10:49:53 +0300
+  
+SyntaxError (/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:25: syntax error, unexpected '}', expecting =>
+...= {session[:expiry] - Time.now}.to_i
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:28: syntax error, unexpected ':', expecting =>
+...ed', status: 401, data: {info : 'Your session has expired. P...
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:28: syntax error, unexpected '}', expecting `end'
+...lease login again to continue'} )
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:31: syntax error, unexpected ':', expecting =>
+...ed', status: 401, data: {info : 'Your session has expired. P...
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:31: syntax error, unexpected '}', expecting `end'
+...lease login again to continue'} )
+...                              ^
+):
+  
+app/controllers/application_controller.rb:25: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:31: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:31: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:25: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:31: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:31: syntax error, unexpected '}', expecting `end'
+app/controllers/users_controller.rb:1:in `<main>'
+Started GET "/users/login/check" for 127.0.0.1 at 2023-03-23 10:50:32 +0300
+  
+SyntaxError (/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:25: syntax error, unexpected '}', expecting =>
+...= {session[:expiry] - Time.now}.to_i
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:28: syntax error, unexpected ':', expecting =>
+...ed', status: 401, data: {info : 'Your session has expired. P...
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:28: syntax error, unexpected '}', expecting `end'
+...lease login again to continue'} )
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:31: syntax error, unexpected ':', expecting =>
+...ed', status: 401, data: {info : 'Your session has expired. P...
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:31: syntax error, unexpected '}', expecting `end'
+...lease login again to continue'} )
+...                              ^
+):
+  
+app/controllers/application_controller.rb:25: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:31: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:31: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:25: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:31: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:31: syntax error, unexpected '}', expecting `end'
+app/controllers/users_controller.rb:1:in `<main>'
+Started GET "/users/login/check" for 127.0.0.1 at 2023-03-23 10:50:43 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:25: syntax error, unexpected '}', expecting =>
+...= {session[:expiry] - Time.now}.to_i
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:28: syntax error, unexpected ':', expecting =>
+...ed', status: 401, data: {info : 'Your session has expired. P...
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:28: syntax error, unexpected '}', expecting `end'
+...lease login again to continue'} )
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:31: syntax error, unexpected ':', expecting =>
+...ed', status: 401, data: {info : 'Your session has expired. P...
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:31: syntax error, unexpected '}', expecting `end'
+...lease login again to continue'} )
+...                              ^
+):
+  
+app/controllers/application_controller.rb:25: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:31: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:31: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:25: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:28: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:31: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:31: syntax error, unexpected '}', expecting `end'
+app/controllers/users_controller.rb:1:in `<main>'
+Started DELETE "/users/logout" for 127.0.0.1 at 2023-03-23 11:01:12 +0300
+  
+SyntaxError (/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:25: syntax error, unexpected '='
+         session[:expiry] || =Time.now
+                             ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:26: syntax error, unexpected '}', expecting =>
+...e(session[:expiry]) - Time.now}.to_i
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:29: syntax error, unexpected ':', expecting =>
+...ed', status: 401, data: {info : 'Your session has expired. P...
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:29: syntax error, unexpected '}', expecting `end'
+...lease login again to continue'} )
+...                              ^
+):
+  
+app/controllers/application_controller.rb:25: syntax error, unexpected '='
+app/controllers/application_controller.rb:26: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:29: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:29: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:25: syntax error, unexpected '='
+app/controllers/application_controller.rb:26: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:29: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:29: syntax error, unexpected '}', expecting `end'
+app/controllers/users_controller.rb:1:in `<main>'
+Started DELETE "/users/logout" for 127.0.0.1 at 2023-03-23 11:03:54 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:24: syntax error, unexpected '='
+        session[:expiry] || =Time.now
+                            ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:27: syntax error, unexpected '}', expecting =>
+...e(session[:expiry]) - Time.now}.to_i
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:30: syntax error, unexpected ':', expecting =>
+...ed', status: 401, data: {info : 'Your session has expired. P...
+...                              ^
+/home/kupa/Development/code/phase_4/TaskTrain/app/controllers/application_controller.rb:30: syntax error, unexpected '}', expecting `end'
+...lease login again to continue'} )
+...                              ^
+):
+  
+app/controllers/application_controller.rb:24: syntax error, unexpected '='
+app/controllers/application_controller.rb:27: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:30: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:30: syntax error, unexpected '}', expecting `end'
+app/controllers/application_controller.rb:24: syntax error, unexpected '='
+app/controllers/application_controller.rb:27: syntax error, unexpected '}', expecting =>
+app/controllers/application_controller.rb:30: syntax error, unexpected ':', expecting =>
+app/controllers/application_controller.rb:30: syntax error, unexpected '}', expecting `end'
+app/controllers/users_controller.rb:1:in `<main>'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTodos (20230323082544)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "todos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar NOT NULL, "description" text NOT NULL, "status" integer DEFAULT 0 NOT NULL, "priority" integer DEFAULT 0 NOT NULL, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_d94154aa95"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE INDEX "index_todos_on_user_id" ON "todos" ("user_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230323082544"]]
+  [1m[36mTRANSACTION (102.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
